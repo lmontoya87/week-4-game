@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Comfortaa|Rokkitt" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Crystals Collector Game</title>
+
+</head>
+<body>
+<div class="container">
+<div>
+<h1> Welcome to the Crystals Collector Game!</h1>
+    <p>You will be given a random number at the start of the game.</p>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    <p>GOOD LUCK!!!</p>
+
+    <div><h2>Random Number: <span id="computerRandomNumber"></span></h2></div>
+    <div id="playerScore">
+        <div><h3> Your total score: <span id="playerGameTotal">0</span> </h3> 
+            <h4> Game Results: <span id="gameResults"> </span> </h4> </div>
+        <div><h5> wins: <span id="wins">0</span></h5></div>
+        <div><h5> losses: <span id="losses">0</span></h5></div>
+    </div>
+    <div id="crystals" class="imageCrystal">
+        <img src="assets/images/sapphire.png", id="sapphire">
+        <img src="assets/images/diamond.png", id="diamond">
+        <img src="assets/images/ruby.png", id="ruby">
+        <img src="assets/images/emerald.png", id="emerald">
+    </div>
+</div>
+</div>
+
+<audio src="assets/images/cash.wav" type="audio/wav" id="cash">
+</audio>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

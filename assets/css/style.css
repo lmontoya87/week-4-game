@@ -1,0 +1,102 @@
+html body {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#background {
+	width: 100%; 
+	height: auto;
+}
+
+.container {
+	padding-bottom: 50px;
+	text-align: center;
+	background-image:url('../images/footer_lodyas.png');
+}
+
+h1 {
+	line-height: 2em;
+	font-size: 2em;
+	font-family: 'Comfortaa', cursive;
+	padding-bottom: 10px;
+	color: #ffd700;
+}
+
+p {
+	padding-bottom: 10px;
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+}
+
+h2, h3, h4, h5 {
+	line-height: 2em;
+	color: #00ffff;
+	font-size: 1.3em;
+	font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+	text-align: right;
+	width: 45%;
+	float: left;
+}
+
+h3 {
+	text-align: left;
+	color: #7fff00;
+	width: 45%;
+	float: right;
+}
+
+h4, h5 { 
+	clear: both;
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+}
+
+#gameResults {
+	font-weight: bold;
+	color: red;
+}
+#wins, #losses {
+	font-weight: bold;
+	color: yellow;
+}
+
+img { 
+	border-radius: 60%; 
+  	margin-top: 20px;
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+}
+
+img:active {
+	opacity: 0.8;
+}
+
+/******MEDIA QUERIES******/
+
+	@media screen and (max-width: 1000px) {
+
+	/*	h2, h3, h4, h5 {
+			font-size: 1em;
+		}*/
+
+		img {
+  			width: 150px;
+  			height: 150px;
+		}
+	}
+
+
+	@media screen and (max-width: 775px) {
+
+		img {
+  			width: 100px;
+  			height: 100px;
+		}	
+	}
+
+
+	
